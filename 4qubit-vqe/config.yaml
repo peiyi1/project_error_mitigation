@@ -1,0 +1,8 @@
+provider: ibm-q-ncsu.nc-state.ece792
+hardware: ibm_hanoi
+shots: 10000
+test_qubits: 4
+pauli_op: ['IIZZ','IZZI','ZZII']
+coeffs_pauli_op: [0.5,0.5,0.5]
+offset: -1.5
+noise_scale_range: [1,2,3]
